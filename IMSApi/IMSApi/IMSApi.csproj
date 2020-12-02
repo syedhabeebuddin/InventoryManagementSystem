@@ -4,5 +4,17 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\IMSApi.Common\IMSApi.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\Contracts\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.8.0" />
+  </ItemGroup>
+
 
 </Project>
